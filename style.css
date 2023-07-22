@@ -419,12 +419,34 @@ section {
   
   footer {
     height: 26vh;
-    margin: 0 1rem;
   }
   
   footer p {
     text-align: center;
+    color: white;
   }
 
+  .grad {
+    background: linear-gradient(-45deg, #303841, #3A4750, #00ADB5, #EEEEEE);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .fstyle{
+    color: white;
+  }
+  
   
   
